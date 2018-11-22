@@ -1,7 +1,7 @@
 # DLoader
 
 ### **WHAT IS THIS?**
-DLoader is firmware downloading tool for Unisoc MCU modules.
+DLoader is the firmware downloading tool for Unisoc MCU modules.
 
 ### **SOURCE CODE**
 
