@@ -7,5 +7,13 @@ copyright: © Copyright 2018-2021 UNISOC members and individual contributors Las
 repo_url: https://github.com/unisoc/documentation
 repo_name: Github
 
-#theme: readthedocs
-theme: material
+theme:
+  logo: 'extras/images/UNISOC_LOGO.jpg'
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'Orange'
+    accent: 'Green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
