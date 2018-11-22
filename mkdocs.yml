@@ -1,0 +1,10 @@
+site_name: UNISOC UWP Serias Documents
+site_url: https://unisoc.github.io
+site_author: Dong.Xiang
+site_description: UNISOC Documents
+copyright: © Copyright 2018-2021 UNISOC members and individual contributors Last updated on Nov 20, 2018.
+
+repo_url: https://github.com/unisoc/documentation
+repo_name: Github
+
+theme: readthedocs
