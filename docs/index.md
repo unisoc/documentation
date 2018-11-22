@@ -4,7 +4,7 @@
 
 A comprehensive guide to using the UNISOC IoT Edition boards.
 
-- [Chip](soc/)
+- [Chip](chip/)
 
 - [Board](board/)
 
