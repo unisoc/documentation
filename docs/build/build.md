@@ -1,10 +1,10 @@
 # How to Build UNISOC Zephyr SDK
 
-## Choosing your board
+### Choosing your board
 
 The UNISOC Zephyr SDK supports building multiple boards.
 
-## Choosing your profile
+### Choosing your profile
 
 The UNISOC Zephyr SDK supports building multiple profiles.
 All supported profiles are stored in the directory ```apps```,
@@ -14,7 +14,7 @@ and can be listed by the following command:
 find apps/ -mindepth 1 -maxdepth 1 -type d ! -name ".*" -exec basename {} \;
 ```
 
-## Building
+### Building
 
 To build a specific profile for a specific, use the following the command:
 
