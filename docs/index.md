@@ -1,16 +1,10 @@
-# Home
+# Using the IVY566X
 
-UNISOC IoT Documents [unisoc.github.io](https://unisoc.github.io/)
+A comprehensive guide to using the IVY566X IoT Edition board.
 
-## Commands
+## [Chip](soc/)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
+## [Board](board/)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        about.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## [UNISOC Zephyr SDK](build/)
+   - In a few simple steps, learn how to build and flash the whole program to the Ivy566X.
