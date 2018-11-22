@@ -1,10 +1,11 @@
-# Using the IVY566X
+# Home
 
-A comprehensive guide to using the IVY566X IoT Edition board.
+## Using UNISOC IoT Edition boards
 
-## [Chip](soc/)
+A comprehensive guide to using the UNISOC IoT Edition boards.
 
-## [Board](board/)
+- [Chip](soc/)
 
-## [UNISOC Zephyr SDK](build/)
-   - In a few simple steps, learn how to build and flash the whole program to the Ivy566X.
+- [Board](board/)
+
+- [UNISOC Zephyr SDK](build/)
