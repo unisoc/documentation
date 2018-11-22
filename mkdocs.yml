@@ -1,4 +1,4 @@
-site_name: UNISOC UWP Serias Documents
+site_name: UNISOC IoT Documents
 site_url: https://unisoc.github.io
 site_author: Dong.Xiang
 site_description: UNISOC Documents
@@ -7,4 +7,5 @@ copyright: © Copyright 2018-2021 UNISOC members and individual contributors Las
 repo_url: https://github.com/unisoc/documentation
 repo_name: Github
 
-theme: readthedocs
+#theme: readthedocs
+theme: material
