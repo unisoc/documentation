@@ -15,16 +15,8 @@ In addition, you can build the dloader.
 make dloader
 ```
 
-#### **Step 1**: Switch bootstrap pin to ROM Code mode.
-  ┌──────────────┐
-  │ ┌─┐   ┌─┐┌─┐ │
-  │ │O│ O │O││O│ │
-  │ ├─┤┌─┐├─┤├─┤ │
-  │ │O││O││O││O│ │
-  │ └─┘├─┤└─┘└─┘ │
-  │  O │O│ O  O  │
-  │    └─┘       │
-  └──────────────┘
+#### **Step 1**: Switch bootstrap pin to ```Download``` mode.
+![Download Mode](download_mode.png)
 
 #### **Step 2**: Power on the board, and execute the following sequence of commands:
 
@@ -33,16 +25,8 @@ cd output/repeater/images
 ./update_fw.sh
 ```
 
-#### **Step 3**: Switch bootstrap pin to NOR Flash mode again and push the reset button.
-  ┌──────────────┐
-  │    ┌─┐┌─┐┌─┐ │
-  │  O │O││O││O│ │
-  │ ┌─┐├─┤├─┤├─┤ │
-  │ │O││O││O││O│ │
-  │ ├─┤└─┘└─┘└─┘ │
-  │ │O│ O  O  O  │
-  │ └─┘          │
-  └──────────────┘
+#### **Step 3**: Switch bootstrap pin to ```Boot``` mode again and push the reset button.
+![Boot Mode](boot_mode.png)
 
 To update one image or several images, please refer to help of ```update_fw.sh```.
 
