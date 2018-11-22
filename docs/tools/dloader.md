@@ -1,15 +1,15 @@
 # Dloader
 
-## WHAT IS THIS?
+### **WHAT IS THIS?**
 dloader is firmware downloading tool for Unisoc MCU modules.
 
-## SOURCE CODE
+### **SOURCE CODE**
 
 ```shell
 git clone https://github.com/unisoc/dloader.git
 ```
 
-## INSTALLATION
+### **INSTALLATION**
 
 ```shell
 ./configure
@@ -20,6 +20,6 @@ sudo make install
 See the file INSTALL for compilation and installation instructions.
 
 
-## USAGE
+### **USAGE**
 Please run `dloader` for a list and explanation of options.
 
