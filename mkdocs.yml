@@ -12,7 +12,7 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    primary: 'Orange'
+    primary: 'Purple'
     accent: 'Green'
   font:
     text: 'Roboto'
