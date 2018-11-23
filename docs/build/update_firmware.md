@@ -16,7 +16,7 @@ make dloader
 ```
 
 #### **Step 1**: Switch bootstrap pin to ```Download``` mode.
-![Download Mode](download_mode.png)
+![Download Mode](/extras/images/download_mode.png)
 
 #### **Step 2**: Power on the board, and execute the following sequence of commands:
 
@@ -26,7 +26,7 @@ cd output/repeater/images
 ```
 
 #### **Step 3**: Switch bootstrap pin to ```Boot``` mode again and push the reset button.
-![Boot Mode](boot_mode.png)
+![Boot Mode](/extras/images/boot_mode.png)
 
 To update one image or several images, please refer to help of ```update_fw.sh```.
 

@@ -32,11 +32,12 @@ nav:
     - '96Boards IVY5661': 'board/96b_ivy5661.md'
 - Build:
     - 'UNISOC Zephyr SDK': 'build/README.md'
-    - 'Setting up enviroment': 'build/setup_env.md'
-    - 'Download UNISOC SDK': 'build/download_source.md'
     - 'Build UNISOC SDK': 'build/build.md'
     - 'Updating firmware': 'build/update_firmware.md'
     - 'Debugging': 'build/debug.md'
+- Applications:
+    - 'Example Applications': 'apps/README.md'
+    - 'Wi-Fi Repeater': 'apps/wifi_repeater.md'
 - Tools:
     - 'DLoader': 'tools/dloader.md'
 - About: 'about.md'
