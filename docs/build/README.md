@@ -6,9 +6,13 @@ platform except the cross-compilation toolchain, including
 bootloader and Zephyr portings, top level customized applications
 and programming tools.
 
-### [Setting up Development Environment](setup_env.md)
-
-### [Downloading UNISOC Zephyr SDK](download_source.md)
+### **Directory Structure**
+- apps: contains example profiles.
+- build: contains Makefiles and scripts that control the building process.
+- dloader: is firmware downloading tool.
+- firmware: contains the WCN modem binary.
+- mcuboot: contains the MCUboot source code.
+- zephyr: contains the Zephyr source code.
 
 ### [Building UNISOC Zephyr SDK](build.md)
 

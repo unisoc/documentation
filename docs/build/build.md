@@ -1,5 +1,18 @@
 # How to Build UNISOC Zephyr SDK
 
+### **Downloading source code**
+To download the source code, please follow the commands below:
+
+```shell
+mkdir unisoc_zephyr_sdk && cd unisoc_zephyr_sdk
+repo init -u https://github.com/unisoc/manifests.git -b master
+repo sync
+repo start --all master
+```
+
+### **Setting up Development Environment**
+Please refer to [Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/getting_started.html#getting-started-guide).
+
 ### **Choosing your board**
 
 The UNISOC Zephyr SDK supports building multiple boards.
@@ -16,7 +29,7 @@ find apps/ -mindepth 1 -maxdepth 1 -type d ! -name ".*" -exec basename {} \;
 
 ### **Building**
 
-To build a specific profile for a specific, use the following the command:
+To build a specific profile for a specific board, use the following the command:
 
 ```shell
 BOARD=96b_ivy5661 PROFILE=repeater make
