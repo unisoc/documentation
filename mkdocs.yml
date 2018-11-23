@@ -11,13 +11,14 @@ strict: true
 theme:
   name: 'material'
   logo: 'extras/images/UNISOC_LOGO.jpg'
-  language: 'en'
   palette:
     primary: 'Purple'
     accent: 'Green'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+  feature:
+    tabs: true
 
 markdown_extensions:
     - toc:
@@ -27,17 +28,20 @@ markdown_extensions:
 nav:
 - Home: 'index.md'
 - Chips:
+    - 'Overview': 'chip/index.md'
     - 'UWP5661': 'chip/UWP5661.md'
 - Boards:
+    - 'Overview': 'board/index.md'
     - '96Boards IVY5661': 'board/96b_ivy5661.md'
-- Build:
-    - 'UNISOC Zephyr SDK': 'build/README.md'
+- SDK:
+    - 'Overview': 'build/index.md'
     - 'Build UNISOC SDK': 'build/build.md'
     - 'Updating firmware': 'build/update_firmware.md'
     - 'Debugging': 'build/debug.md'
 - Applications:
-    - 'Example Applications': 'apps/README.md'
+    - 'Overview': 'apps/index.md'
     - 'Wi-Fi Repeater': 'apps/wifi_repeater.md'
 - Tools:
+    - 'Overview': 'tools/index.md'
     - 'DLoader': 'tools/dloader.md'
 - About: 'about.md'

@@ -1,15 +1,25 @@
-# Home
+# Overview
 
-## Using UNISOC IoT Edition boards
+Official documentation for UNISOC IoT devices.
 
-A comprehensive guide to using the UNISOC IoT Edition boards.
+It provides a comprehensive guide to using the UNISOC IoT Edition boards.
 
-- [Chip](chip/)
+- [Chips](chip/)
 
-- [Board](board/)
+    UNISOC chips designed for IoT industry. 
 
-- [UNISOC Zephyr SDK](build/)
+- [Boards](board/)
 
-     In a few simple steps, learn how to build and flash your the whole program to the board.
+    Custom or official boards based on UNISOC IoT chips.
+
+- [UNISOC SDK](build/)
+
+    In a few simple steps, learn how to build and flash the whole program to the board.
 
 - [Applications](apps/)
+
+     Demo applications.
+
+- [Tools](tools/)
+
+     Usefull tools.
