@@ -6,10 +6,11 @@ copyright: © Copyright 2018-2021 UNISOC members and individual contributors Las
 
 repo_url: https://github.com/unisoc/documentation
 repo_name: Github
+strict: true
 
 theme:
-  logo: 'extras/images/UNISOC_LOGO.jpg'
   name: 'material'
+  logo: 'extras/images/UNISOC_LOGO.jpg'
   language: 'en'
   palette:
     primary: 'Purple'
@@ -17,3 +18,25 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+
+markdown_extensions:
+    - toc:
+        permalink: True
+    - sane_lists
+
+nav:
+- Home: 'index.md'
+- Chips:
+    - 'UWP5661': 'chip/UWP5661.md'
+- Boards:
+    - '96Boards IVY5661': 'board/96b_ivy5661.md'
+- Build:
+    - 'UNISOC Zephyr SDK': 'build/README.md'
+    - 'Setting up enviroment': 'build/setup_env.md'
+    - 'Download UNISOC SDK': 'build/download_source.md'
+    - 'Build UNISOC SDK': 'build/build.md'
+    - 'Updating firmware': 'build/update_firmware.md'
+    - 'Debugging': 'build/debug.md'
+- Tools:
+    - 'DLoader': 'tools/dloader.md'
+- About: 'about.md'
