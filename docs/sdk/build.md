@@ -17,7 +17,7 @@ Please refer to [Getting Started Guide](https://docs.zephyrproject.org/latest/ge
 
 The UNISOC Zephyr SDK supports building multiple boards.
 
-- [96b_ivy5661](../board/96b_ivy5661.md)
+- [96b_ivy5661](../boards/96b_ivy5661.md)
 
 ### **Choosing your profile**
 
@@ -25,7 +25,7 @@ The UNISOC Zephyr SDK supports building multiple profiles.
 All supported profiles are stored in the directory ```apps```,
 and can be listed by the following command:
 
-- [repeater](../apps/wifi_repeater.md)
+- [repeater](../demos/wifi_repeater.md)
 
 ### **Building**
 

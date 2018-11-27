@@ -1,6 +1,6 @@
-# Example Applications
+# Demo Applications
 
-The UNISOC Zephyr SDK contains possible example applications, which are also referred to as ```profiles```.
+The UNISOC Zephyr SDK contains possible demo applications, which are also referred to as ```profiles```.
 Each profile corresponds to a user scenario.
 
 ### [W-Fi Repeater](wifi_repeater.md)

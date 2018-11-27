@@ -28,19 +28,19 @@ markdown_extensions:
 nav:
 - Home: 'index.md'
 - Chips:
-    - 'Overview': 'chip/index.md'
-    - 'UWP5661': 'chip/UWP5661.md'
+    - 'Overview': 'chips/index.md'
+    - 'UWP5661': 'chips/UWP5661.md'
 - Boards:
-    - 'Overview': 'board/index.md'
-    - '96Boards IVY5661': 'board/96b_ivy5661.md'
+    - 'Overview': 'boards/index.md'
+    - '96Boards IVY5661': 'boards/96b_ivy5661.md'
 - SDK:
     - 'Overview': 'sdk/index.md'
     - 'Build UNISOC SDK': 'sdk/build.md'
     - 'Updating firmware': 'sdk/update_firmware.md'
     - 'Debugging': 'sdk/debug.md'
-- Applications:
-    - 'Overview': 'apps/index.md'
-    - 'Wi-Fi Repeater': 'apps/wifi_repeater.md'
+- Demos:
+    - 'Overview': 'demos/index.md'
+    - 'Wi-Fi Repeater': 'demos/wifi_repeater.md'
 - Tools:
     - 'Overview': 'tools/index.md'
     - 'DLoader': 'tools/dloader.md'

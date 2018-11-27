@@ -4,22 +4,22 @@ Official documentation for UNISOC IoT devices.
 
 It provides a comprehensive guide to using the UNISOC IoT Edition boards.
 
-- [Chips](chip/)
+- [Chips](chips/)
 
     UNISOC chips designed for IoT industry. 
 
-- [Boards](board/)
+- [Boards](boards/)
 
     Custom or official boards based on UNISOC IoT chips.
 
-- [UNISOC SDK](build/)
+- [SDK](sdk/)
 
     In a few simple steps, learn how to build and flash the whole program to the board.
 
-- [Applications](apps/)
+- [Demos](demos/)
 
-     Demo applications.
+    Some typical applications.
 
 - [Tools](tools/)
 
-     Usefull tools.
+    Usefull tools.
