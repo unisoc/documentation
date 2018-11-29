@@ -2,7 +2,7 @@
 
 To update firmware, please follow the procedure below:
 
-#### **Step 0**: Install the flash programming tool before updating.
+#### **Step 0**: Install the flash programming tool before everything.
 Download the [dloader](https://github.com/unisoc/dloader/releases/download/unisoc-v0.3.1/dloader_0.3.1-1_amd64.deb) and install it.
 
 ```shell
@@ -18,7 +18,9 @@ make dloader
 #### **Step 1**: Switch bootstrap pin to ```Download``` mode.
 ![Download Mode](/extras/images/download_mode.png)
 
-#### **Step 2**: Power on the board, and check the name of your serial port.
+#### **Step 2**: Close the serial port tool on your PC, such as minicom.
+
+#### **Step 3**: Power on the board, and check the name of your serial port.
 ```shell
 $ dmesg | tail
 [18063.042470] usb 1-1.4: new full-speed USB device number 10 using ehci-pci
@@ -32,13 +34,13 @@ $ dmesg | tail
 [18063.303396] usb 1-1.4: cp210x converter now attached to ttyUSB0
 ```
 
-#### **Step 3**: Updating firmware by the following commands.
+#### **Step 4**: Updating firmware by the following commands.
 
 ```shell
 cd output/repeater/images
 ./update_fw.sh
 ```
-Note that the default serial port name is ```ttyUSB0```.
+Note that the default serial port name of the board is ```ttyUSB0```.
 Otherwise, you should specify the serial port name got from **Step 2**.
 
 ```shell
@@ -46,7 +48,7 @@ cd output/repeater/images
 ./update_fw.sh -d ttyUSB0
 ```
 
-#### **Step 4**: Switch bootstrap pin to ```Boot``` mode again and push the reset button.
+#### **Step 5**: Switch bootstrap pin to ```Boot``` mode and push the reset button.
 ![Boot Mode](/extras/images/boot_mode.png)
 
 To update one image or several images, please refer to help of ```update_fw.sh```.

@@ -27,8 +27,9 @@ However, it is recommended to use the wrapper script ```update_fw.sh```.
 
 ```shell
 $ ./update_fw.sh -h
-Usage: update_fw.sh [-d] path [-abhkmu]
--d: specify the path which contains images.
+Usage: update_fw.sh [-d] device [-i] path [-abhkmu]
+-d: specify the device name of the serial port.
+-i: specify the path which contains images.
 -a: flash all images.
 -b: flash bootloader.
 -k: flash kernel.
