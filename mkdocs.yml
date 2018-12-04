@@ -38,6 +38,7 @@ nav:
     - 'Build UNISOC SDK': 'sdk/build.md'
     - 'Updating firmware': 'sdk/update_firmware.md'
     - 'Debugging': 'sdk/debug.md'
+    - 'Releases': 'sdk/releases.md'
 - Demos:
     - 'Overview': 'demos/index.md'
     - 'Wi-Fi Repeater': 'demos/wifi_repeater.md'
