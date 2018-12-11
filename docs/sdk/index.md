@@ -9,7 +9,8 @@ and programming tools.
 ### **Directory Structure**
 - apps: contains example profiles.
 - build: contains Makefiles and scripts that control the building process.
-- dloader: is firmware downloading tool.
+- dloader: is the firmware downloading tool running on PC.
+- fdl: is the firmware downloading program running on the board.
 - firmware: contains the WCN modem binary.
 - mcuboot: contains the MCUboot source code.
 - zephyr: contains the Zephyr source code.

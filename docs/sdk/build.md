@@ -38,7 +38,7 @@ Note that the default board is ```96b_ivy5661```, while the default profile is `
 
 After the compilation, the images can be found in the directory ```output/repeater/images/```.
 
-- fdl*.bin - Flash downloader
+- fdl*.bin - Firmware downloader
 - mcuboot-pubkey*.bin - Bootloader
 - zephyr-signed-ota*.bin - Kernel
 - wcn-modem* - WCN Modem
