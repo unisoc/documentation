@@ -1,0 +1,49 @@
+/*********************************************************************
+*                    SEGGER Microcontroller GmbH                     *
+*       Solutions for real time microcontroller applications         *
+**********************************************************************
+*                                                                    *
+*            (c) 1995 - 2018 SEGGER Microcontroller GmbH             *
+*                                                                    *
+*       www.segger.com     Support: support@segger.com               *
+*                                                                    *
+**********************************************************************
+----------------------------------------------------------------------
+Purpose : J-Link script file for Spreadtrum SC2355 device.
+            - Handles connect pre-configuration
+---------------------------END-OF-HEADER------------------------------
+*/
+
+/*********************************************************************
+*
+*       InitTarget
+*/
+void InitTarget(void) { 
+  Report("*************************************************");
+  Report("J-Link script: UNISOC UWP566X J-Link script");
+  Report("*************************************************");
+  CPU = CORTEX_M4;                                                              // Pre-select that we have a Cortex-M4 connected
+  JTAG_AllowTAPReset = 1;                                                       // J-Link is allowed to use a TAP reset for JTAG-chain auto-detection
+  //
+  // Manually configure which APs are present on the CoreSight device
+  //
+  JTAG_SetDeviceId(0, 0x4BA00477);  // 4-bits IRLen
+  CORESIGHT_AddAP(0, CORESIGHT_AHB_AP);
+  CORESIGHT_AddAP(1, CORESIGHT_APB_AP);
+  CORESIGHT_AddAP(2, CORESIGHT_JTAG_AP);
+  CORESIGHT_AddAP(3, CORESIGHT_AHB_AP);
+  CORESIGHT_AddAP(4, CORESIGHT_AHB_AP);
+  CORESIGHT_IndexAHBAPToUse = 3;
+}
+
+/*********************************************************************
+*
+*       SetupTarget
+*/
+void SetupTarget(void) {
+  Report("******************************************************");
+  Report("J-Link script: SetupTarget()");
+  Report("J-Link script: Releasing the CPU before connect procedure!!!");
+  Report("******************************************************");
+  MEM_WriteU32(0x40088288, 0x0);
+}

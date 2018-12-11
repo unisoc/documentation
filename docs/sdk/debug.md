@@ -9,7 +9,7 @@ To set the debugging environment, please follow the procedure below:
 sudo dpkg -i Downloads/JLink_Linux_V630b_x86_64.deb
 ```
 
-#### **Step 1**: Put Unisoc_UWP566X.JLinkScript to /opt/SEGGER/JLink/Samples/JLink/Scripts.
+#### **Step 1**: Download [Unisoc_UWP566X.JLinkScript](/extras/scripts/Unisoc_IVY566X.JLinkScript) and put it to ```/opt/SEGGER/JLink/Samples/JLink/Scripts```.
 
 ```shell
 cp Unisoc_UWP566X.JLinkScript /opt/SEGGER/JLink/Samples/JLink/Scripts
