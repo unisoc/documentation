@@ -1,6 +1,11 @@
 # How to Build UNISOC Zephyr SDK
 
 ### **Downloading source code**
+If you haven't installed ```repo``` yet, please install it first.
+```shell
+sudo apt-get install repo
+```
+
 To download the source code, please follow the commands below:
 
 ```shell
