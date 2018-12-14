@@ -16,7 +16,11 @@ repo start --all master
 ```
 
 ### **Setting up Development Environment**
-Please refer to [Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/getting_started.html#getting-started-guide).
+- [Install Requirements and Dependencies](https://docs.zephyrproject.org/latest/getting_started/installation_linux.html#install-requirements-and-dependencies)
+- [Install Python Dependencies](https://docs.zephyrproject.org/latest/getting_started/getting_started.html#install-python-dependencies)
+- [Install the Zephyr Software Development Kit](https://docs.zephyrproject.org/latest/getting_started/installation_linux.html#install-the-zephyr-software-development-kit-sdk)
+
+For more information, please refer to [Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/getting_started.html#getting-started-guide).
 
 ### **Choosing your board**
 
