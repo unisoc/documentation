@@ -3,7 +3,7 @@
 To make the Wi-Fi repeater work, please follow the procedure below:
 
 ### **0. Install Smart Repeater to your phone.**
-Download the [Smart Repeater](https://github.com/unisoc/Android-SmartRepeater/releases/download/W18.46.2/SmartRepeater_W18.46.2.apk).
+Download the [Smart Repeater](https://github.com/unisoc/Android-SmartRepeater/releases/download/W19.01.05/SmartRepeater_W19.01.05.apk).
 
 Connect your phone to the PC, and use the following command to install it.
 
