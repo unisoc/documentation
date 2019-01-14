@@ -33,7 +33,6 @@ nav:
 - Boards:
     - 'Overview': 'boards/index.md'
     - '96Boards IVY5661': 'boards/96b_ivy5661.md'
-    - 'pin on the female header': 'boards/pin.md'
 - SDK:
     - 'Overview': 'sdk/index.md'
     - 'Build UNISOC SDK': 'sdk/build.md'
