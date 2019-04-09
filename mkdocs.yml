@@ -45,5 +45,6 @@ nav:
 - Tools:
     - 'Overview': 'tools/index.md'
     - 'DLoader': 'tools/dloader.md'
+    - 'uwpflash': 'tools/uwpflash.md'
     - 'zperf': 'tools/zperf.md'
 - About: 'about.md'
